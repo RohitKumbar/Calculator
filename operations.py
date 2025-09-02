@@ -21,3 +21,6 @@ def power(a, b):
 
 def log(n, base):
     return math.log(n, base)
+  
+def fib(n):
+    return 1 if n in [1, 0] else fib(n-1) + fib(n-2)
