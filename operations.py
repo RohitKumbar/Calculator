@@ -16,3 +16,6 @@ def divide(a, b):
 
 def power(a, b):
     return a**b
+
+def fib(n):
+    return 1 if n in [1, 0] else fib(n-1) + fib(n-2)
