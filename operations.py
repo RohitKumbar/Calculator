@@ -16,3 +16,7 @@ def divide(a, b):
 
 def power(a, b):
     return a**b
+
+import math
+def log(a, b):
+    return math.log(b, a)
