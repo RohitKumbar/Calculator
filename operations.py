@@ -1,4 +1,6 @@
 # operations.py
+import math
+
 
 def add(a, b):
     return a + b
@@ -16,3 +18,6 @@ def divide(a, b):
 
 def power(a, b):
     return a**b
+
+def log(n, base):
+    return math.log(n, base)
